@@ -1,3 +1,4 @@
+// entry point to react
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
@@ -6,8 +7,10 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
+    {/* app is the root component */}
     <App />
   </React.StrictMode>,
+  // grabbing the dic root from index.html in public, we are inserting our App into that div
   document.getElementById('root')
 );
 

@@ -3,6 +3,7 @@ import { useLocation } from 'react-router-dom'
 import Button from './Button'
 
 const Header = ({ title, onAdd, showAdd }) => {
+  //  a hook in react-dom to look at route we are currently on
   const location = useLocation()
 
   return (
